@@ -33,6 +33,15 @@ binwalk -e your_firmware.bin
 Which should make a new folder.
 
   4. Now, move to the ```language``` dir by using cd command, or ``` explorer.exe . ``` for WSL.
-    ( for WSL, keep the dot to open file explorer at the current directory )
+    ( for WSL, keep the dot to open file explorer at the current directory ).
 
-    
+      Keep in mind that, the ```www``` folder contains the neccessaries for WebGUI.
+      the ```www``` in the jffs folder contains the .htm for interacting with plugins.
+     
+  6. Pull the file to your desired location. Now you have done the work, take a rest~!
+## How to apply
+  By the time i write this, i have just gotten the lang file from the firmware. i might take a while for me to figure it out. Please make a discussion for any tips u guys can give me pls, and thx for reading this README.md
+
+## Credits
+
+ thanks my brother for helping me making the sasquatch works on my PC  ToT.
