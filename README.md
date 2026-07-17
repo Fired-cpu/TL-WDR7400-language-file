@@ -18,4 +18,21 @@ can be found in: the ``` www/web-static/language ``` directory when extract base
   (To WSL users, please run ```cd ~``` as some .symlink might be broken if extracted in the ```mnt/c``` )
 
   1. Get the base file from TP-LINK website: ( should be firmware.zip)
-        
+     ( In case no source or it's CN TP-link, use the raw binary taken from the SPI chip )
+     
+  2. Open terminal ( linux ) or CMD/PS then type "WSL" (Window)
+
+  3. Check .bin file 
+  ```
+binwalk your_firmware.bin
+  ```
+  if ok, then extract file
+  ```
+binwalk -e your_firmware.bin
+  ```
+Which should make a new folder.
+
+  4. Now, move to the ```language``` dir by using cd command, or ``` explorer.exe . ``` for WSL.
+    ( for WSL, keep the dot to open file explorer at the current directory )
+
+    
