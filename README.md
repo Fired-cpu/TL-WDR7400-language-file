@@ -32,7 +32,12 @@ binwalk -e your_firmware.bin
   ```
 Which should make a new folder.
 
-  4. Now, move to the ```language``` dir by using cd command, or ``` explorer.exe . ``` for WSL.
+  4. Now, move to the ```language``` dir by using 
+  ```
+  cd _your_firmware.bin.extracted/squashfs-root/www/web-static/language
+```
+or  type
+``` explorer.exe . ``` for WSL. and go to the same directory like on linux
     ( for WSL, keep the dot to open file explorer at the current directory ).
 
       Keep in mind that, the ```www``` folder contains the neccessaries for WebGUI.
