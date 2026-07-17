@@ -1,2 +1,5 @@
-# TL-WDR7400-language-file
-Wonder how to change the language in this router? Just use this file ( or make one that fits your own) to convert from chinese to any language.
+##TP-LINK TL-WDR7400 language file
+This repo is dedicated to this only JavaScript file contain all strings ( in Chinese ) used for the WebGUI.
+
+NOTE: plugin translations are not included in this file, requiring modification on the actual .htm file for each plugin.
+
