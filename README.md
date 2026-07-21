@@ -11,7 +11,7 @@ can be found in: the ``` www/web-static/language ``` directory when extract base
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/e69232fa-7d1a-417b-a908-e81f22152e7d" />
 
-**To extract the .bin file, please use Binwalk, unsquashfs-tools, jefferson, sasquatch-Universal-Builder and install required dependencies. For installation, please refers to guides on those repo.**
+**To extract the .bin file, please use Binwalk, unsquashfs-tools, ~~jefferson, sasquatch-Universal-Builder~~ and install required dependencies. For installation, please refers to guides on those repo.**
 
 ## How to pull language file
 
